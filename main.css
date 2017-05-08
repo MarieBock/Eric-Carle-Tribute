@@ -1,0 +1,42 @@
+/* CSS for Tribute Project */
+
+img.header-image {
+    max-height: 100%;
+    width: 100%;
+    border-top-color: red;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-color: blue;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: green;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: orange;
+    border-left-style: solid;
+    border-left-width: 3px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.rainbow {
+    letter-spacing: -7px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 5em;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+ h2 {
+    text-align: center;
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 30px;
