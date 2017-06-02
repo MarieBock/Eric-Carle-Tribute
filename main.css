@@ -1,8 +1,33 @@
 /* CSS for Tribute Project */
+.row.bottom {
+    padding-top: 100px;
+}
+
+/* .row {
+    margin-left: 25px;
+    margin-right: 25px;
+} */
+.connect,
+.info {
+    text-align: center;
+}
+button.btn.btn-secondary.btn-lg.wp,
+button.btn.btn-secondary.btn-lg.az,
+button.btn.btn-secondary.btn-lg.fb {
+    background: lightblue;
+    color:black;
+    font-family: "Bubblegum Sans", cursive;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+}
 
 img.header-image {
     max-height: 100%;
     width: 100%;
+    margin: auto;
     border-top-color: red;
     border-top-style: solid;
     border-top-width: 3px;
@@ -15,6 +40,7 @@ img.header-image {
     border-left-color: orange;
     border-left-style: solid;
     border-left-width: 3px;
+    
 }
 
 .col-centered{
@@ -25,6 +51,28 @@ img.header-image {
 .rainbow {
     letter-spacing: -7px;
 }
+
+.intro {
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 5px;
+    text-align: left;
+}
+
+.including {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.books {
+    font-family: "Bubblegum Sans", cursive;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    list-style-type: none;
+     }
 
 h1 {
     text-align: center;
@@ -40,3 +88,10 @@ h1 {
     font-size: 2em;
     margin-top: 0px;
     margin-bottom: 30px;
+   
+ p {
+     padding-left: 40px;
+     padding-right: 40px;
+     margin-left: 40px;
+     margin-right: 40px;
+     }
