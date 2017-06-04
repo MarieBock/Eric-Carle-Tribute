@@ -24,9 +24,19 @@ ul {
     list-style: none;
 }
 
-img.header-image {
-    max-height: 100%;
-    width: 100%;
+div#image {
+    text-align: center;
+}
+
+div#img-caption {
+    font-family: monospace;
+    padding-top: 10px;
+}
+
+div#image {
+ 
+    padding-top: 30px;
+    max-width: 100%;
     margin: auto;
     border-top-color: red;
     border-top-style: solid;
